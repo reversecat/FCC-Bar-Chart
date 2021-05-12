@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: slategray;
+  min-width: 920px;
+  min-height: 530px;
+}
+
+#container {
+  text-align: center;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+
+#title {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.white {
+  background: #cdfc8a;
+  position: absolute;
+  pointer-events: none;
+}
+
+#tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background: white;
+  pointer-events: none;
+}
+
+#chart {
+  position: relative;
+}
